@@ -239,7 +239,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-        We introduce MVSplat, an efficient model that, given sparse multi-view images as input, predicts clean feed-forward 3D Gaussians. To accurately localize the Gaussian centers, we build a cost volume representation via plane sweeping, where the cross-view feature similarities stored in the cost volume can provide valuable geometry cues to the estimation of depth. We also learn other Gaussian primitives' parameters jointly with the Gaussian centers while only relying on photometric supervision. We demonstrate the importance of the cost volume representation in learning feed-forward Gaussians via extensive experimental evaluations. On the large-scale RealEstate10K and ACID benchmarks, MVSplat achieves state-of-the-art performance with the fastest feed-forward inference speed (22 fps). <b>More impressively, compared to the latest state-of-the-art method pixelSplat, MVSplat uses 10&times; fewer parameters and infers more than 2&times; faster while providing higher appearance and geometry quality as well as better cross-dataset generalization.</b>
+        We propose an efficient feed-forward model for novel view synthesis and 3D reconstruction based on Gaussian Splatting, featuring a scalable architecture that reliably predicts multi-view depth maps and 3D Gaussian primitives from as few as two input views. Existing multi-view depth estimation techniques typically depend on processing plane-swept cost volumes, which generate probability distributions over a discrete set of candidate depths. This approach limits scalability, especially when finer depth sampling or higher spatial resolution is required. To address this, we design an optimization-inspired architecture OptSplat, that employs recurrent iterative updates to refine depth maps and pixel-aligned Gaussian primitives based on previous predictions. Our model leverages a unified update operator that iteratively indexes global cost volumes, progressively improving predictions in the joint space of depth and Gaussian parameters. Comprehensive evaluations across the real world datasets of RealEstate10K, ACID and DL3DV shows that our model demonstrates strong cross-dataset generalization and competitive rendering quality for novel views compared to the existing works with plane swept cost volumes, while at the same time offering upto 5x reduction in the GPU memory requirements, especially for reconstruction with high-resolution inputs.</b>
         </div>
       </div>
     </div>
@@ -255,18 +255,8 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Overview</h2>
 
-        <img src="static/images/architecture.png" class="center">
-        <figcaption class="has-text-justified"><b>Overview of MVSplat.</b> Given multiple posed images as input, we first extract
-        multi-view image features with a multi-view Transformer, which contains self- and
-        cross-attention layers to exchange information across views. Next, we construct per-view 
-        cost volumes using plane sweeping. The Transformer features and cost volumes
-        are concatenated together as input to a 2D U-Net (with cross-view attention) for cost
-        volume refinement and predicting per-view depth maps. The per-view depth maps are
-        unprojected to 3D and combined using a simple deterministic union operation as the 3D
-        Gaussian centers. The opacity, covariance and color Gaussian parameters are predicted
-        jointly with the depth maps. Finally, novel views are rendered from the predicted 3D
-        Gaussians with the splatting operation.</figcaption>
-
+        <img src="static/images/IterArch.png" class="center">
+        <figcaption class="has-text-justified"><b>Overview of OptSplat.</b> Given posed multi-view RGB inputs, OptSplat constructs local cost volumes via plane sweep stereo and iteratively refines 3D-consistent depth maps and 3D Gaussians using a GRU-based update operator. The entire pipeline operates in a fully feed-forward, zero-shot manner, enabling efficient and scalable novel view synthesis with high geometric and visual fidelity</figcaption>
       </div>
     </div>
 
