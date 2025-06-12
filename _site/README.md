@@ -1,7 +1,6 @@
-# Donny CHEN's Homepage
+# Vemburaj Yadav's Homepage
 
-
-Kindly check: [https://donydchen.github.io/](https://donydchen.github.io/)
+Kindly check: [https://VemburajYadav.github.io/](https://donydchen.github.io/)
 
 Powered by [Hydejack](https://hydejack.com/) v9.1.6
 
@@ -10,8 +9,8 @@ Powered by [Hydejack](https://hydejack.com/) v9.1.6
 To run locally, 
 
 ```bash
-git clone https://github.com/donydchen/donydchen.github.io.git
-cd donydchen.github.io
+git clone https://github.com/VemburajYadav/VemburajYadav.github.io.git
+cd VemburajYadav.github.io
 bundle install
 bundle exec jekyll serve
 ```
