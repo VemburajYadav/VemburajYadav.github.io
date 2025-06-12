@@ -1,6 +1,6 @@
 # Vemburaj Yadav's Homepage
 
-Kindly check: [https://VemburajYadav.github.io/](https://donydchen.github.io/)
+Kindly check: [https://VemburajYadav.github.io/](https://VemburajYadav.github.io/)
 
 Powered by [Hydejack](https://hydejack.com/) v9.1.6
 
