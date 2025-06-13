@@ -526,12 +526,6 @@
             <br><br>
             On the DL3DV scenes, which feature more complex geometry and larger viewpoint variations, <strong>OptSplat</strong> demonstrates strong generalization with negligible drops in rendering quality—while using only a fraction of the memory required by DepthSplat. Notably, unlike DepthSplat, <strong>OptSplat</strong> does not rely on foundational monocular features, yet it generalizes robustly across datasets. This highlights the significance of our recurrent optimization module.
           </p>
-
-          <p>We conduct cross-dataset generalization studies, where models trained on RealEstate10K are evaluated on the ACID and DL3DV datasets. Despite using local cost volumes, our
-            OptSplat is inherently superior to MVSplat in generalizing to <em>out-of-distribution</em> novel scenes, owing to the iterative optimization layers which enables refinement of 3D Gaussians during inference.
-            Onm the DL3DV scenes featuring more complex geometry and larger viewpoint variations, our OptSplat demonstrates cross-dataset generalization with negligible drop in rendering qualities,  with only a fraction of
-            the memory requirements as compared to DepthSplat. Unlike DepthSplat, our OptSplat does not leverage foundational monocular features, while our model robustly generalizes across datasets, which further signifies the importance of
-          our recurrent optimization module.</p>
         </div>
 
         <img src="static/images/re10k_generalization.png" class="center" alt="trained on RealEstate10K, and tested on DTU and ACID" />
