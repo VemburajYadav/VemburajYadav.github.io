@@ -282,7 +282,7 @@
     </div>
   </div>
    	<div align="center">
-      <b>Feed-forward high resolution novel view synthesis (512x960) on unseen scenes of DL3DV from 2 input views.</b>
+      <b>Feed-forward high resolution novel view synthesis (512x960) from OptSplat on unseen scenes of DL3DV from 2 input views.</b>
 	</div>
   <br>
 </section>
@@ -311,6 +311,29 @@
   </div>
 </section>
 -->
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- TL;DR -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3" style="margin-top: -30px">Summary</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li style="font-size:18px">We present an efficient and scalable architecture <b>OptSplat</b> for zero-shot 3D reconstruction and high-resolution novel view synthesis.</li>
+            <li style="font-size:18px">Our GRU-based recurrent optimization layers leverages lightweight local cost volumes instead of their global counterparts for sequential estimation and refinement of multi-view depth and 3D Gaussians.</li>
+            <li style="font-size:18px">Our learning-to-optimize framework enables strong cross-dataset generalization and competitive performance compared to state-of-the-art approaches,
+              while <b>reducing GPU memory consumption by approximately 5×</b>—making it suitable for deployment on resource-constrained hardware without compromising rendering quality.</li>
+            <li style="font-size:18px">Scalability with respect to the number of input views, image resolution, and depth candidates, enabling efficient large-scale generalizable reconstruction and high-resolution novel view synthesis.</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <section class="section hero is-light">
   <div class="container is-max-desktop">
@@ -358,8 +381,7 @@
               that utilizes plane-swept cost volumes to encode global feature matching information between frame pairs, and then infer Mulit-View Depth and Gaussian parameter from the constructed global cost volumes. Construction
               and processing of global cost volumes leads to poor scalability of the model to input image resolutions and number of input views.</li>
             <li><a href="hhttps://haofeixu.github.io/depthsplat/">DepthSplat</a>: The latest feed-forward Multi-View Depths and 3D Gaussians model that leverages both the ploane-swept cost volumes and foundational features from
-              pre-trained <a href="https://github.com/DepthAnything/Depth-Anything-V2">monocular-depth estimation </a> models to predict highly accurate 3D-consistent depth maps and 3D Gaussians.
-              3D volume and (2+1)D CNN, which is expensive to train and renders comparably slowly.</li>
+              pre-trained <a href="https://github.com/DepthAnything/Depth-Anything-V2">monocular-depth estimation </a> models to predict highly accurate 3D-consistent depth maps and 3D Gaussians.</li>
           </ul>
         </div>
 
