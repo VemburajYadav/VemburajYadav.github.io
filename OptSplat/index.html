@@ -501,6 +501,34 @@
         scenes of RealEstate10K dataset</figcaption>
   <br>
 </section>
+
+<section class="section" style="padding-top: 2em;">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Reccurent Optimization for Iterative Refinement</h2>
+
+        <div class="content has-text-justified">
+          <p>We highlight the convergence behavior of our model as the number of recurrent refinement iterations increases. The results validate our design objective: the update operator effectively learns to perform
+            optimization-like refinement in a feed-forward manner, progressively improving scene geometry and appearance reconstruction.
+            Furthermore, as shown in the figure below, both the predicted depth maps and the synthesized novel views exhibit consistent refinement across iterations,
+            capturing increasingly fine-grained details and producing sharper reconstructions over time.</p>
+        </div>
+
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full-width">
+            <!-- <h2 class="title is-3">Overview</h2> -->
+            <img src="static/images/IterPredictions2.png" class="center">
+            <figcaption class="has-text-centered"> Input view depth predictions and novel view renderings from OptSplat over the
+              iterations of recurrent optimization.</figcaption>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 <!--
 <section class="section" style="padding-top: 0;">
   <div class="container is-max-desktop">
