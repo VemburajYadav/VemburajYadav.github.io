@@ -408,7 +408,9 @@
         <div class="content has-text-justified">
           <br>
           <p>
-            Here, we present qualitative comparisons for multi-view depth estimation and novel views rendered from interpolated viewpoints between the two input views. <b>OptSplat</b> demonstrates the ability to produce 3D-consistent depth maps and photorealistic novel views, performing comparably to state-of-the-art models despite not leveraging monocular features from foundation models. Instead, it operates using localized cost volumes, resulting in a significantly reduced memory footprint.
+            Here, we present qualitative comparisons for multi-view depth estimation and novel views rendered from interpolated viewpoints between the two input views. <b>OptSplat</b> demonstrates the ability to produce 3D-consistent depth maps and photorealistic novel views, performing comparably to state-of-the-art models despite not leveraging monocular features from foundation models.
+            Instead, it operates using localized cost volumes, resulting in a significantly reduced memory footprint. Our approach achieves significantly less memory—approximately 50% and 25% of the memory used by MVSplat and DepthSplat, respectively. Specifically, our model operates within a memory footprint of under 700,MB for 256 × 256 resolution inputs,
+            compared to over 2600,MB required by DepthSplat, which offers only marginal improvements in rendering fidelity.
           </p>
         </div>
         <!--
@@ -630,6 +632,15 @@
           </video>
         </div>
         -->
+        <div class="content has-text-justified">
+          <br>
+          <p>
+            Though trained on the RealEstate10K dataset, which primarily comprises indoor scenes,
+            our model generalizes robustly to the ACID dataset, which features natural outdoor environments captured by
+            aerial drones. The highly detailed depth maps and novel views demonstrate robustness across datasets,
+            scales, lighting conditions, and viewpoint variations.
+          </p>
+        </div>
       </div>
     </div>
 
