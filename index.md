@@ -24,7 +24,7 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
   <ul>
     <li>
       <a href="https://drive.google.com/file/d/1ki7R9O9oHFEu7gBPKuNs8RkBnSCGtpCH/view?usp=sharing" title="View CV" class="no-mark-external" target="_blank">
-        <span class="icon-file-text2"></span>
+        <span class="icon-google-plus"></span>
         <span aria-hidden="true">CV </span>
         <span class="sr-only">CV</span>
       </a>
