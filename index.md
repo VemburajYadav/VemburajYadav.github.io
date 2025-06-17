@@ -43,10 +43,24 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
 </div>
 
 <div class="pub">
-  <div class="pub-title"> Dynamic Cost Volumes with Scalable Transformer Architecture for Optical Flow</div>
+  <div class="pub-title">Dynamic Cost Volumes with Scalable Transformer Architecture for Optical Flow</div>
   <div class="pub-venue">IMVIP 2023</div>
   <div class="pub-authors">Vemburaj Yadav, Alain Pagani and Didier Stricker</div>
   <div>[<a href="https://zenodo.org/records/8253052?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI5NGI1MDRjLTMzNzAtNDI4Ny1iMzhiLWMyZjA2NjUyOWRjOCIsImRhdGEiOnt9LCJyYW5kb20iOiI0M2UxYWViN2Y0MmZhOThiZjFhZjUxNDAyOGU5NGMwYSJ9.9zCutVq6zeBHFwYMDgTiPqiXVDA7Y9KIUSGBQFUBSzJqTk4eVwZbXDF3YVhDHE-9_9G4IAMuQKva45ejs07jwg">paper</a>] [<a href="https://github.com/VemburajYadav/DCV-Net">code</a>] [<a href="https://vemburajyadav.github.io/DCV-Net">project page</a>] </div>
+</div>
+
+<div class="pub">
+  <div class="pub-title">Camera-based position analysis system for cyclists ordering in bicycle swarms</div>
+  <div class="pub-venue">MuC 2023</div>
+  <div class="pub-authors">Vemburaj Yadav, Alain Pagani and Didier Stricker</div>
+  <div>[<a href="https://av.dfki.de/publications/camera-based-position-analysis-system-for-cyclists-ordering-in-bicycle-swarms/">paper</a>]</div>
+</div>
+
+<div class="pub">
+  <div class="pub-title">Towards Incorporating 3D Space-Awareness into an Augmented Reality Sign Language Interpreter</div>
+  <div class="pub-venue">ICASSP 2023</div>
+  <div class="pub-authors">Fabrizio Nunnari, Eleftherios Avramidis, Vemburaj Yadav, Alain Pagani, Yasser Hamidullah, Sepideh Mollanorozy, Cristina España-Bonet, Emil Woop and Patrick Gebhard</div>
+  <div>[<a href="https://av.dfki.de/publications/towards-incorporating-3d-space-awareness-into-an-augmented-reality-sign-language-interpreter/">paper</a>]</div>
 </div>
 
 ---
