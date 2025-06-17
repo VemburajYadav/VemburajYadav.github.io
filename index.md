@@ -40,83 +40,19 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
   <div class="pub-venue">Under Review</div>
   <div class="pub-authors">Vemburaj Yadav, Alain Pagani and Didier Stricker</div>
   <div>[<a href="https://www.dropbox.com/scl/fi/wyv27h9uinfivfh4gxzu7/OptSplat.pdf?rlkey=cqc3zd55jyc9laz4y45zfd91g&st=vw71fezc&dl=0">paper</a>] [<a href="https://github.com/VemburajYadav/OptSplat">code</a>] [<a href="https://vemburajyadav.github.io/OptSplat">project page</a>] </div>
-  <!-- <div> TL;DR: MVSplat360 is a feed‑forward model that combines 3DGS with SVD to achieve 360° NVS for complex scenes with less than 5 input views. </div>  -->
 </div>
 
 <div class="pub">
-  <div class="pub-title">MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images</div>
-  <div class="pub-venue">ECCV 2024 (Oral)</div>
-  <div class="pub-authors">Yuedong Chen, Haofei Xu, Chuanxia Zheng, Bohan Zhuang, Marc Pollefeys, Andreas Geiger, Tat-Jen Cham, and Jianfei Cai</div>
-  <div>[<a href="https://arxiv.org/abs/2403.14627">arXiv</a>] [<a href="https://github.com/donydchen/mvsplat">code</a>] [<a href="https://donydchen.github.io/mvsplat">project
-    page</a>] </div>
-</div>
-
-<div class="pub">
-  <div class="pub-title">MuRF: Multi-Baseline Radiance Fields</div>
-  <div class="pub-venue">CVPR 2024</div>
-  <div class="pub-authors">Haofei Xu, Anpei Chen, Yuedong Chen, Christos Sakaridis, Yulun Zhang, Marc Pollefeys, Andreas Geiger, <i>et al.</i></div>
-  <div>[<a href="https://arxiv.org/abs/2312.04565">arXiv</a>] [<a href="https://github.com/autonomousvision/murf">code</a>] [<a href="https://haofeixu.github.io/murf/">project
-    page</a>] </div>
-</div>
-
-<div class="pub">
-  <div class="pub-title">Explicit Correspondence Matching for Generalizable Neural Radiance Fields</div>
-  <div class="pub-venue">arXiv 2023</div>
-  <div class="pub-authors">Yuedong Chen, Haofei Xu, Qianyi Wu, Chuanxia Zheng, Tat-Jen Cham, and Jianfei Cai</div>
-  <div>[<a href="http://arxiv.org/abs/2304.12294">arXiv</a>] [<a href="https://github.com/donydchen/matchnerf">code</a>] [<a href="https://donydchen.github.io/matchnerf/">project
-    page</a>] </div>
-</div>
-
-<div class="pub">
-  <div class="pub-title">Sem2NeRF: Converting Single-View Semantic Masks to Neural Radiance Fields</div>
-  <div class="pub-venue">ECCV 2022</div>
-  <div class="pub-authors">Yuedong Chen, Qianyi Wu, Chuanxia Zheng, Tat-Jen Cham, and Jianfei Cai</div>
-  <div>[<a href="https://arxiv.org/abs/2203.10821">arXiv</a>] [<a href="https://github.com/donydchen/sem2nerf">code</a>] [<a href="https://donydchen.github.io/sem2nerf/">project
-    page</a>] [<a href="https://www.youtube.com/watch?v=cYr3Dz8N_9E">demo video</a>] </div>
-</div>
-
-<div class="pub">
-  <div class="pub-title">Object-Compositional Neural Implicit Surfaces</div>
-  <div class="pub-venue">ECCV 2022</div>
-  <div class="pub-authors">Qianyi Wu, Xian Liu, Yuedong Chen, Kejie Li, Chuanxia Zheng, Jianfei Cai, and Jianmin Zheng</div>
-  <div>[<a href="https://arxiv.org/abs/2207.09686">arXiv</a>] [<a href="https://github.com/QianyiWu/objsdf">code</a>]
-    [<a href="https://wuqianyi.top/objectsdf/">project
-      page</a>] [<a href="https://youtu.be/23vxOV19bEw">demo video</a>] </div>
-</div>
-
-<div class="pub">
-  <div class="pub-title">Towards Unbiased Visual Emotion Recognition via Causal Intervention</div>
-  <div class="pub-venue">ACM Multimedia 2022</div>
-  <div class="pub-authors">Yuedong Chen, Xu Yang, Tat-Jen Cham, and Jianfei Cai</div>
-  <div>[<a href="https://arxiv.org/abs/2107.12096">arXiv</a>] [<a href="https://github.com/donydchen/causal_emotion">code</a>]
-  </div>
-</div>
-
-<div class="pub">
-  <div class="pub-title">GeoConv: Geodesic Guided Convolution for Facial Action Unit Recognition</div>
-  <div class="pub-venue">Pattern Recognition 2022</div>
-  <div class="pub-authors">Yuedong Chen, Guoxian Song, Zhiwen Shao, Jianfei Cai, Tat-Jen Cham, and Jianmin Zheng</div>
-  <div>[<a href="https://arxiv.org/abs/2003.03055">arXiv</a>] 
-    <!-- [<a href="#">code (coming soon)</a>] -->
-  </div>
-</div>
-
-<div class="pub">
-  <div class="pub-title">Facial Motion Prior Networks for Facial Expression Recognition</div>
-  <div class="pub-venue">VCIP 2019 (Oral)</div>
-  <div class="pub-authors">Yuedong Chen, Jianfeng Wang, Shikai Chen, Zhongchao Shi, and Jianfei Cai</div>
-  <div>[<a href="https://arxiv.org/abs/1902.08788">arXiv</a>] [<a href="https://github.com/donydchen/FMPN-FER">code</a>]</div>
-</div>
-
-<div>
-  <br>
-  More on <a href="https://scholar.google.com.sg/citations?user=GqgGZlQAAAAJ&hl=en" target="_blank">Google Scholar</a>
+  <div class="pub-title"> Dynamic Cost Volumes with Scalable Transformer Architecture for Optical Flow</div>
+  <div class="pub-venue">IMVIP 2023</div>
+  <div class="pub-authors">Vemburaj Yadav, Alain Pagani and Didier Stricker</div>
+  <div>[<a href="https://zenodo.org/records/8253052?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImI5NGI1MDRjLTMzNzAtNDI4Ny1iMzhiLWMyZjA2NjUyOWRjOCIsImRhdGEiOnt9LCJyYW5kb20iOiI0M2UxYWViN2Y0MmZhOThiZjFhZjUxNDAyOGU5NGMwYSJ9.9zCutVq6zeBHFwYMDgTiPqiXVDA7Y9KIUSGBQFUBSzJqTk4eVwZbXDF3YVhDHE-9_9G4IAMuQKva45ejs07jwg">paper</a>] [<a href="https://github.com/VemburajYadav/DCV-Net">code</a>] [<a href="https://vemburajyadav.github.io/DCV-Net">project page</a>] </div>
 </div>
 
 ---
+<h2 class="h1 index-header" id="projects">Projects</h2>
 
-<h2 class="h1 index-header" id="projects">Projects & Talks</h2>
-
+<!--
 <div style="padding-top: 20px; margin-bottom: -15px">
   <ul>
     <li>28-01-2025, Invited talk "Feed-forward NVS from Sparse Inputs​" at <i>Amazon, Tel Aviv</i>, hosted by <a href="https://www.linkedin.com/in/lior-fritz-6457a796">Lior Fritz</a>.</li>
@@ -139,6 +75,7 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     </a>
     <div class="cdesc">Invited talk at <a href="https://ajcai2024.org" target="_blank">AJCAI 2024</a></div>
   </div>
+-->
 
   <!-- <div class="card">
     <a href="https://wayve.ai" target="_blank">
@@ -147,6 +84,7 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     <div class="cdesc">Invited talk at WAYVE(London)</div>
   </div> -->
 
+<!--
   <div class="card">
     <a href="https://eccv2024.ecva.net/virtual/2024/poster/1231" target="_blank">
       <div><img src="assets/img/eccv24_oral.jpeg" /></div>
@@ -202,3 +140,4 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
   <script type='text/javascript' id='clustrmaps'
     src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=tt&d=rZHkm--x6O2bEyO0Je3uy1kjPw-mXX0YCKFUg287Tc0&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
 </div>
+-->
