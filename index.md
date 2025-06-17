@@ -22,8 +22,14 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
 
 <div class="body-social sidebar-social">
   <ul>
+    <li>
+      <a href="https://drive.google.com/file/d/1ki7R9O9oHFEu7gBPKuNs8RkBnSCGtpCH/view?usp=sharing" title="View CV" class="no-mark-external" target="_blank">
+        <span class="icon-file-text2"></span>
+        <span aria-hidden="true">CV </span>
+        <span class="sr-only">CV</span>
+      </a>
+    </li>
     <li> <a href="mailto:vemburajyadav1994@gmail.com" title="vemburajyadav1994@gmail.com" class="no-mark-external" target="_blank"> <span class="icon-mail"></span> <span aria-hidden="true">Email </span><span class="sr-only">Donny's Email Address</span></a></li>
-    <!-- <li> <a href="https://scholar.google.com/citations?user=GqgGZlQAAAAJ" title="Google Scholar" class="no-mark-external" target="_blank"> <span class="icon-googlescholar"></span> <span aria-hidden="true">Google Scholar </span><span class="sr-only">Donny's Google Scholar profile</span></a></li> -->
     <li> <a href="https://github.com/VemburajYadav" title="GitHub" class="no-mark-external" target="_blank"> <span class="icon-github"></span> <span aria-hidden="true">GitHub </span><span class="sr-only">Donny's Github</span></a></li>
     <li> <a href="https://www.linkedin.com/in/vemburaj-yadav" title="LinkedIn" class="no-mark-external" target="_blank"> <span class="icon-linkedin2"></span> <span aria-hidden="true">LinkedIn </span><span class="sr-only">Donny's LinkedIn</span></a></li>
     <li> <a href="https://twitter.com/yadav_vemburaj" title="Twitter" class="no-mark-external" target="_blank"> <span><svg xmlns="http://www.w3.org/2000/svg" width="15.2" height="15.5" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/></svg></span> <span aria-hidden="true">Twitter </span><span class="sr-only">Donny's Twitter</span></a></li>
