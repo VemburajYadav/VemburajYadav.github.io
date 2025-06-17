@@ -22,13 +22,7 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
 
 <div class="body-social sidebar-social">
   <ul>
-    <li>
-      <a href="https://drive.google.com/file/d/1ki7R9O9oHFEu7gBPKuNs8RkBnSCGtpCH/view?usp=sharing" title="View CV" class="no-mark-external" target="_blank">
-        <span class="icon-google-plus"></span>
-        <span aria-hidden="true">CV </span>
-        <span class="sr-only">Donny's CV</span>
-      </a>
-    </li>
+    <li> <a href="https://drive.google.com/file/d/1ki7R9O9oHFEu7gBPKuNs8RkBnSCGtpCH/view?usp=sharing" title="View CV" class="no-mark-external" target="_blank"> <span class="icon-google-drive"></span> <span aria-hidden="true">CV </span><span class="sr-only">Donny's CV</span></a></li>
     <li> <a href="mailto:vemburajyadav1994@gmail.com" title="vemburajyadav1994@gmail.com" class="no-mark-external" target="_blank"> <span class="icon-mail"></span> <span aria-hidden="true">Email </span><span class="sr-only">Donny's Email Address</span></a></li>
     <li> <a href="https://github.com/VemburajYadav" title="GitHub" class="no-mark-external" target="_blank"> <span class="icon-github"></span> <span aria-hidden="true">GitHub </span><span class="sr-only">Donny's Github</span></a></li>
     <li> <a href="https://www.linkedin.com/in/vemburaj-yadav" title="LinkedIn" class="no-mark-external" target="_blank"> <span class="icon-linkedin2"></span> <span aria-hidden="true">LinkedIn </span><span class="sr-only">Donny's LinkedIn</span></a></li>
