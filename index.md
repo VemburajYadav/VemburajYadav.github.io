@@ -8,7 +8,7 @@ hide_description: true
 cover: true
 ---
 
-<h2 class="h1 index-header" id="about">About Me </h2>
+<h2 class="h1 index-header" id="about">Short Bio </h2>
 
 
 I am a Researcher at the [Augmented Vision](https://av.dfki.de/) department of [German Research Center for Artificial Intelligence](https://www.dfki.de/web) (DFKI GmbH), working under the supervision of Dr. [Alain Pagani](https://av.dfki.de/members/pagani/) and Prof. [Didier Stricker](https://av.dfki.de/members/stricker/).  My research focuses on core challenges in computer vision, with a special emphasis on inferring 3D information from 2D data—particularly in the areas of generalizable 3D reconstruction, optical flow estimation, and novel view synthesis. In parallel, I contribute to the development of AR/VR applications, with a focus on interactive and immersive data visualization. My work aims to bridge foundational vision research with user-centered extended reality systems, enabling practical applications in augmented environments.
