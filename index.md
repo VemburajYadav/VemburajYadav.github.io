@@ -41,7 +41,7 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
   <div class="pub-authors">Vemburaj Yadav, Alain Pagani and Didier Stricker</div>
   <div>[<a href="https://www.dropbox.com/scl/fi/wyv27h9uinfivfh4gxzu7/OptSplat.pdf?rlkey=cqc3zd55jyc9laz4y45zfd91g&st=vw71fezc&dl=0">paper</a>] [<a href="https://github.com/VemburajYadav/OptSplat">code</a>] [<a href="https://vemburajyadav.github.io/OptSplat">project page</a>] </div>
 </div>
-
+  
 <div class="pub">
   <div class="pub-title">Dynamic Cost Volumes with Scalable Transformer Architecture for Optical Flow</div>
   <div class="pub-venue">IMVIP 2023</div>
