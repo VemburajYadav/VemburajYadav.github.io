@@ -90,14 +90,12 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     </a>
     <div class="cdesc">Immersive 3D Flood Visualization in VR</div>
   </div>
-</div>
 
-<div class="demo-proj-row">
   <div class="card">
     <a href="https://github.com/VemburajYadav/MixedRealityToolkit-MRTK3-WebView2-Hololens2" target="_blank">
       <div><img src="assets/img/thumbnail-VR-WebView.png" /></div>
     </a>
-    <div class="cdesc">Hand Gesture Interactions for Webpage Navigation in VR</div>
+    <div class="cdesc">Hand Gesture Interactions for WebView in VR</div>
   </div>
 </div>
 
