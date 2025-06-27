@@ -81,21 +81,21 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     <a href="https://github.com/VemburajYadav/VR-Interactive-Data-Visualizations-Unity" target="_blank">
       <div><img src="assets/img/thumbnail-VR-LineCharts.png" /></div>
     </a>
-    <div class="cdesc">Interactive Data Visualization in VR</a></div>
+    <div class="cdesc">Interactive Data Visualization in VR</div>
   </div>
 
   <div class="card">
     <a href="https://github.com/VemburajYadav/Unity-Cesium-Flood-VR-MetaQuest" target="_blank">
       <div><img src="assets/img/thumbnail-VR-Flood.png" /></div>
     </a>
-    <div class="cdesc">Immersive 3D Flood Visualization in VR</a></div>
+    <div class="cdesc">Immersive 3D Flood Visualization in VR</div>
   </div>
 
   <div class="card">
     <a href="https://github.com/VemburajYadav/MixedRealityToolkit-MRTK3-WebView2-Hololens2" target="_blank">
       <div><img src="assets/img/thumbnail-VR-WebView.png" /></div>
     </a>
-    <div class="cdesc">Advanced Hand Gesture Interactions for Webpage Navigation in VR</a></div>
+    <div class="cdesc">Advanced Hand Gesture Interactions for Webpage Navigation in VR</div>
   </div>
 
 <!--
