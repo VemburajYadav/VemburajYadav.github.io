@@ -73,30 +73,30 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     <li>08-11-2024, Invited talk "Feed-forward Novel View Synthesis" at <i>Wayve, London</i>, hosted by <a href="https://www.linkedin.com/in/joepolin">Joe Polin</a>.</li>
   </ul>
 </div>
+-->
 
 <div class="demo-proj-row">
 
   <div class="card">
-    <a href="https://bsky.app/profile/donydchen.bsky.social/post/3lldtgeyitc2h" target="_blank">
-      <div><img src="assets/img/talk_3dv25.png" /></div>
+    <a href="https://github.com/VemburajYadav/VR-Interactive-Data-Visualizations-Unity" target="_blank">
+      <div><img src="assets/img/thumbnail-VR-LineCharts.png" /></div>
     </a>
-    <div class="cdesc">Invited talk at <a href="https://3dvconf.github.io/2025/call-for-nectar-track" target="_blank">3DV25 Nectar Track</a></div>
+    <div class="cdesc">Interactive Data Visualization in VR</a></div>
   </div>
 
   <div class="card">
-    <a href="https://ajcai2024.org/files/AJCAI_Booklet.pdf#page=15.09" target="_blank">
-      <div><img src="assets/img/talk_ajcai2024.png" /></div>
+    <a href="https://github.com/VemburajYadav/Unity-Cesium-Flood-VR-MetaQuest" target="_blank">
+      <div><img src="assets/img/thumbnail-VR-Flood.png" /></div>
     </a>
-    <div class="cdesc">Invited talk at <a href="https://ajcai2024.org" target="_blank">AJCAI 2024</a></div>
+    <div class="cdesc">Immersive 3D Flood Visualization in VR</a></div>
   </div>
--->
 
-  <!-- <div class="card">
-    <a href="https://wayve.ai" target="_blank">
-      <div style="margin: 25px 0;"><img src="assets/img/talk_wayve_uk.png" /></div>
+  <div class="card">
+    <a href="https://github.com/VemburajYadav/MixedRealityToolkit-MRTK3-WebView2-Hololens2" target="_blank">
+      <div><img src="assets/img/thumbnail-VR-WebView.png" /></div>
     </a>
-    <div class="cdesc">Invited talk at WAYVE(London)</div>
-  </div> -->
+    <div class="cdesc">Advanced Hand Gesture Interactions for Webpage Navigation in VR</a></div>
+  </div>
 
 <!--
   <div class="card">
