@@ -107,7 +107,7 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
 
   <div class="card">
     <a href="https://github.com/VemburajYadav/Unsupervised-Learning-of-Optical-Flow " target="_blank">
-      <div><img src="assets/img/thumbnail-OpticalFlow.jpg" /></div>
+      <div><img src="assets/img/thumbnail-OpticalFlow.png" /></div>
     </a>
     <div class="cdesc">Unsupervised Learning for Optical Flow</div>
   </div>
