@@ -97,6 +97,13 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     </a>
     <div class="cdesc">✋ Gestures for WebView2 in VR</div>
   </div>
+
+  <div class="card">
+    <a href="https://github.com/VemburajYadav/DeepLearningLagrangainVortexDynamics" target="_blank">
+      <div><img src="assets/img/thumbnail-ParticleSim.png" /></div>
+    </a>
+    <div class="cdesc">Deep Learning for Particle Simulations</div>
+  </div>
 </div>
 
 ---
