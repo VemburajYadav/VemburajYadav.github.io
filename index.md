@@ -97,6 +97,9 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     </a>
     <div class="cdesc">Advanced Hand Gesture Interactions for Webpage Navigation in VR</div>
   </div>
+</div>
+
+---
 
 <!--
   <div class="card">
