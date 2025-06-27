@@ -104,6 +104,14 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     </a>
     <div class="cdesc">Deep Learning for Particle Simulations</div>
   </div>
+
+  <div class="card">
+    <a href="https://github.com/VemburajYadav/Unsupervised-Learning-of-Optical-Flow " target="_blank">
+      <div><img src="assets/img/thumbnail-OpticalFlow.jpg" /></div>
+    </a>
+    <div class="cdesc">Unsupervised Learning for Optical Flow</div>
+  </div>
+
 </div>
 
 ---
