@@ -95,7 +95,7 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
     <a href="https://github.com/VemburajYadav/MixedRealityToolkit-MRTK3-WebView2-Hololens2" target="_blank">
       <div><img src="assets/img/thumbnail-VR-WebView.png" /></div>
     </a>
-    <div class="cdesc">✋ Gesture Interactions for WebView in VR</div>
+    <div class="cdesc">✋ Gestures for WebView2 in VR</div>
   </div>
 </div>
 
