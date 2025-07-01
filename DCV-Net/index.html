@@ -261,6 +261,30 @@
 </section>
 
 
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <!-- Highlights -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          We introduce <b>DCV-Net</b>, a scalable transformer-based architecture for optical flow with dynamic cost volumes.
+          Recently, <i>FlowFormer</i>, which applies transformers on the full 4D cost volumes instead of the visual feature maps,
+          has shown significant improvements in flow estimation accuracy. However, its major drawback lies in its scalability to high-resolution input images,
+          as the complexity of the attention mechanism on 4D cost volumes scales as O(N<sup>4</sup>), where N is the number of visual feature tokens.
+          We propose a novel architecture that retains the FlowFormer-style enrichment of matching cost representations, but
+          with lightweight attention applied to visual feature maps—reducing the complexity to quadratic O(N<sup>2</sup>).
+          First, we generate sequential updates to the visual feature representations and the corresponding cost volumes using lightweight attention layers.
+          Then, we interleave this sequence of cost volumes with iterative flow refinement steps, allowing our refinement module to explicitly operate over dynamic cost volumes.
+          Our architecture, which is two orders of magnitude more efficient than FlowFormer in terms of attention complexity, demonstrates strong cross-domain generalization
+          on both the Sintel and KITTI datasets. DCV-Net outperforms FlowFormer on the KITTI benchmark and achieves highly competitive flow estimation accuracy on the Sintel dataset.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
 <section class="section" style="padding-top: 2em;">
   <div class="container is-max-desktop">
 
@@ -379,8 +403,7 @@
       </div>
     </div>
   </div>
-  <figcaption class="has-text-centered"> Cross-dataset Generalization for <b>OptSplat</b>
-    (Depth estimation on the scenes of DL3DV dataset)</figcaption>
+  <figcaption class="has-text-centered"> Cross-dataset Generalization on MPI Sintel dataset for models trained on Flying Chairs and FlyingThings3D</figcaption>
   <br>
 </section>
 
