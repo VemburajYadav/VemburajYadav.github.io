@@ -260,5 +260,130 @@
   <br>
 </section>
 
+
+<section class="section" style="padding-top: 2em;">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Comparisons with the State-of-the-art</h2>
+        <div class="content has-text-justified">
+          <p>
+            Obtaining accurate per-pixel ground truth for optical flow is non-trivial, especially when scene content motion is independent of camera motion.
+            Models delivering state-of-the-art optical flow estimation accuracy are often trained on synthetically generated datasets.
+            Cross-dataset generalization performance for these models is typically evaluated on the synthetic MPI Sintel dataset,
+            after training on datasets such as Flying Chairs and FlyingThings3D.
+            We present qualitative comparisons with the following state-of-the-art models:
+          </p>
+          <ul>
+            <li>
+              <a href="https://github.com/drinkingcoder/FlowFormer-Official">FlowFormer</a>:
+              FlowFormer is a transformer-based architecture for optical flow, where the cost volumes are dynamic in nature.
+              4D cost volumes generated from an image pair are tokenized and encoded into a cost memory in a novel latent space using transformer layers.
+              These encoded cost maps are then iteratively decoded via a GRU-based recurrent transformer decoder, with dynamic positional cost queries
+              derived from the current flow estimates. In terms of our formulation, FlowFormer resembles an approach with
+              <b>attention on cost volumes</b>.
+            </li>
+            <li>
+              <a href="https://github.com/haofeixu/gmflow/tree/main">GMFlow</a>:
+              GMFlow formulates optical flow as a global matching problem and directly regresses the dense correspondence field
+              based on encoded feature similarities in the 4D cost volumes. It leverages transformer layers with self- and cross-attention
+              on the feature maps from a CNN backbone to facilitate matching across images for pixels with large displacements.
+              In our formulation, GMFlow corresponds to an approach with <b>attention on feature maps and static cost volumes</b>.
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel" data-slides-to-show="1", style="text-align: center; width: 80%; margin: 10px auto;">
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0001.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0002.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0003.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0004.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0005.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0006.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0007.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0008.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0009.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0010.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0011.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0012.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0013.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0014.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0015.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0016.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0017.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0018.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0019.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0020.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0021.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0022.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0023.png" alt="Depth" width="100%">
+        </div>
+        <div class="item item-steve">
+          <img src="static/images/sota_comparisons_sintel/0024.png" alt="Depth" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+  <figcaption class="has-text-centered"> Cross-dataset Generalization for <b>OptSplat</b>
+    (Depth estimation on the scenes of DL3DV dataset)</figcaption>
+  <br>
+</section>
+
+
 </body>
 </html>
