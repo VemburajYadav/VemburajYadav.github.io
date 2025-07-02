@@ -484,6 +484,11 @@
             This setup serves as a baseline model with <b>static cost volumes</b>. For <b>dynamic cost volumes</b>, as proposed in our approach, we generate a sequence of enriched feature representations by applying transformer blocks with self- and cross-attention layers on the visual feature maps.
             This sequence is used to construct a series of cost volumes over time. We then interleave cost volume lookups with iterative flow refinement steps, effectively modeling the cost volumes as dynamic within the recurrent refinement module.
           </p>
+          <p>
+            We present qualitative comparisons on the Kubrik-NK dataset for models trained on Flying Chairs and FlyingThings3D under identical settings.
+            Dynamic cost volumes consistently yield optical flow estimates with lower End-Point Error (EPE) compared to models using static cost volumes—
+            especially for pixels undergoing large displacements, where the EPE for static cost volumes is significantly higher.
+          </p>
         </div>
       </div>
     </div>
