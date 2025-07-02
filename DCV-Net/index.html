@@ -476,25 +476,103 @@
 
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3 has-text-centered">Static vs Synamic Cost Volumes</h2>
+        <h2 class="title is-3 has-text-centered">Static vs Dynamic Cost Volumes</h2>
         <div class="content has-text-justified">
           <p>
             Here, we present the results of our ablation studies demonstrating the effectiveness of <b>dynamic cost volumes</b> over static ones.
             We begin with the <b>RAFT</b> architecture and modify it by applying our matching probability–based lookups on cost volumes constructed once from the feature maps.
-            This setup serves as a baseline model with <b>static cost volumes</b>.
-          </p>
-          <p>
-            For <b>dynamic cost volumes</b>, as proposed in our approach, we generate a sequence of enriched feature representations by applying transformer blocks with self- and cross-attention layers on the visual feature maps.
+            This setup serves as a baseline model with <b>static cost volumes</b>. For <b>dynamic cost volumes</b>, as proposed in our approach, we generate a sequence of enriched feature representations by applying transformer blocks with self- and cross-attention layers on the visual feature maps.
             This sequence is used to construct a series of cost volumes over time. We then interleave cost volume lookups with iterative flow refinement steps, effectively modeling the cost volumes as dynamic within the recurrent refinement module.
           </p>
         </div>
-
       </div>
     </div>
 
   </div>
 </section>
 
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel" data-slides-to-show="1">
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/004_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/014_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/015_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/016_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/019_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/023_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/024_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/025_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/028_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/029_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/002_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="content has-text-centered">
+          <video poster="" id="flower" autoplay controls muted loop width="70%">
+            <source src="static/videos/static_dynamic_kubrik/003_h264.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+    <figcaption class="has-text-centered">Comparing optical flow estimation on the Kubrik-NK dataset between models with static and dynamic cost volumes </figcaption>
+  <br>
+</section>
 
 
 </body>
