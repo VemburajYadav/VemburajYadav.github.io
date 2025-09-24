@@ -39,7 +39,7 @@ My academic journey began with a Bachelor's degree in Mechanical Engineering fro
   <div class="pub-title">OptSplat: Recurrent Optimization for Generalizable Reconstruction and Novel View Renderings</div>
   <div class="pub-venue">BMVC 2025</div>
   <div class="pub-authors">Vemburaj Yadav, Alain Pagani and Didier Stricker</div>
-  <div>[<a href="https://www.dropbox.com/scl/fi/wyv27h9uinfivfh4gxzu7/OptSplat.pdf?rlkey=cqc3zd55jyc9laz4y45zfd91g&st=vw71fezc&dl=0">paper</a>] [<a href="https://github.com/VemburajYadav/OptSplat">code</a>] [<a href="https://vemburajyadav.github.io/OptSplat">project page</a>] </div>
+  <div>[<a href="https://drive.google.com/file/d/1Ugg9zyJB86X9Xp1Dv_Lu1HEfXhANMPFy/view?usp=sharing">paper</a>] [<a href="https://github.com/VemburajYadav/OptSplat">code</a>] [<a href="https://vemburajyadav.github.io/OptSplat">project page</a>] </div>
 </div>
   
 <div class="pub">
